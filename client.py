@@ -1,12 +1,6 @@
 from sys import exit, argv
 from socket import *
 
-
-"""name = Uday Daroch
-   studentID = 24999340
-"""
-   
-    
 def MessageRequest(ID,name,receiverName,Message): 
     """ the function is responsible for creating MessageRequest"""
     # total length of header including the first seven bytes of the fixed header. 
