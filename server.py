@@ -1,8 +1,6 @@
 from sys import exit, argv
 from socket import *
-"""name = Uday Daroch
-   studentID = 24999340
-"""
+
 
 def messageResponse(ID,requestedUser,dictionaryOfMessages,connection): 
     # the length_of_header stores length of the intial header consisting of the 
